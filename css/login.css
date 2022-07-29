@@ -13,7 +13,6 @@ body {
 /*  background: linear-gradient(to top left, #ffa99f, #d6a92c);*/
   background-color: #f8f8f8;
   overflow: hidden;
-  color: #262626;
 }
 
 .container {
@@ -27,7 +26,8 @@ body {
 
 .container h1 {
   padding-bottom: 10px;
-  font-size: 24px;
+  font-size: 20px;
+  color: #575555;
   font-weight: 100;
   letter-spacing: 2px;
 }
@@ -77,6 +77,10 @@ body {
   border: none;
   background-color: #67c3a2;
   transition: all .5s;
+  border-radius: 5px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #fff;
 }
 
 .container .btn-login:hover {
