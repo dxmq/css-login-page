@@ -10,8 +10,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-/*  background: linear-gradient(to top left, #ffa99f, #d6a92c);*/
-  background-color: #f8f8f8;
+  /*background: linear-gradient(to top left, #ffa99f, #d6a92c);*/
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6a5, #23d5ab);
+  background-size: 1000% 1000%;
+  animation: run 12s ease infinite;
   overflow: hidden;
 }
 
@@ -85,4 +87,17 @@ body {
 
 .container .btn-login:hover {
   background-color: #71cbaa;
+}
+
+@keyframes run {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+
 }
